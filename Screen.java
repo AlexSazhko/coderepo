@@ -44,7 +44,7 @@ public class Screen extends JPanel {
 		balls = Collections.synchronizedList(new ArrayList<Ball>());
 		pad = new Padle();
 		bar = new Bar();
-
+// Ù≥‚Ù≥‚Ù≥
 		pool = Executors.newFixedThreadPool(2);
 
 		BallGenerator gen = new BallGenerator();
