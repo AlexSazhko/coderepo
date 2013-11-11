@@ -65,6 +65,11 @@ public class Screen extends JPanel {
 
 	}
 
+	public int retInt(){
+	int i = 0;
+	return i;
+	}
+
 	@Override
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
