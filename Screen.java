@@ -44,7 +44,7 @@ public class Screen extends JPanel {
 		balls = Collections.synchronizedList(new ArrayList<Ball>());
 		pad = new Padle();
 		bar = new Bar();
-// ô³âô³âô³
+// ï¿½ï¿½ï¿½ï¿½ï¿½
 		pool = Executors.newFixedThreadPool(2);
 
 		BallGenerator gen = new BallGenerator();
@@ -84,6 +84,10 @@ public class Screen extends JPanel {
 			bar.draw(g);
 
 		}
+	}
+	
+	private void test(){
+		// this is test
 	}
 
 	private void doGame() {
